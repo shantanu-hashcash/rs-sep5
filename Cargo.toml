@@ -1,0 +1,17 @@
+[package]
+name = "sep5"
+description = "Key Derivation Methods for Hcnet Keys"
+homepage = "https://github.com/shantanu-hashcash/rs-sep5"
+repository = "https://github.com/shantanu-hashcash/rs-sep5"
+authors = ["Aha Labs <team@ahalabs.dev>"]
+license = "Apache-2.0"
+readme = "README.md"
+version = "0.0.2"
+edition = "2021"
+rust-version = "1.67"
+
+[dependencies]
+hcnet-strkey = "0.0.7"
+thiserror = "1.0.31"
+slip10 = "0.4.3"
+tiny-bip39 = "1.0.0"
